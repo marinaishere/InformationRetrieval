@@ -15,8 +15,30 @@ In the results of the execution will always appear the document ID and the score
 ```-progquery fld1 -and term1 term2--- -or termi termj... -not termp termq...``` (show the results for the programatically built query ran over the field fld1)
 
 
+##VERSATILE LUCENE INDEX READER
 
+The first option is mandatory, only one of the others is possible:
 
+```-index indexfile``` (indexfile is the folder where the index is located)
+
+```-doc i ``` (show the content of document i)
+
+```-docs i j ``` (show the content of the documents from i to j)
+
+```-write file ``` (store the content of the index into the file file)
+
+```-termsdfmorethan n fld ``` (show the terms of the field fld with docFreq greater or iqual to n)
+```-termsdflessthan n fld ``` (show the terms of the field fld with docFreq less or iqual to n)
+```-termsdfrango n1 n2 fld ``` (show the terms of the field fld with docFreq greater or iqual to n1 and less or equal to n2)
+```-indexdocstermsdfmorethan n fld indexfile ``` (build and index in the folder indexfile with the documents where the terms of the field fld appear with docFreq greater or equal to n)
+```-indexdocstermsdflessthan n fld indexfile ``` (build and index in the folder indexfile with the documents where the terms of the field fld appear with docFreq less or equal to n)
+```-indexdocstermsdfrango n1 n2 fld indexfile ``` (build and index in the folder indexfile with the documents where the terms of the field fld appear with docFreq greater or equal to n1 and less or equal to n2)
+```- ``` ()
+```- ``` ()
+```- ``` ()
+```- ``` ()
+```- ``` ()
+```- ``` ()
 
 
 ## Contact
