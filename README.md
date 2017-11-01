@@ -8,10 +8,15 @@ Q-learning is a model-free reinforcement learning technique, which is used to ma
 In the results of the execution will always appear the document ID and the score of the satisfying documents. In addition, it can be ran with the following parameters:
 
 ```-index indexfile``` (indexfile is the folder where the index is located)
+
 ```-showfield fld``` (show the content of the fld field for the satisfying documents)
+
 ```-out indexfile```
+
 ```-query fld1 "query"``` (show results of the query "query", qhich is any query accepted by the parser ran over the field fld1)
+
 ```-multiquery fld1 "query" fld2 "query2"...``` (same as above with more than one field)  
+
 ```-progquery fld1 -and term1 term2--- -or termi termj... -not termp termq...``` (show the results for the programatically built query ran over the field fld1)
 
 
@@ -28,11 +33,17 @@ The first option is mandatory, only one of the others is possible:
 ```-write file ``` (store the content of the index into the file file)
 
 ```-termsdfmorethan n fld ``` (show the terms of the field fld with docFreq greater or iqual to n)
+
 ```-termsdflessthan n fld ``` (show the terms of the field fld with docFreq less or iqual to n)
+
 ```-termsdfrango n1 n2 fld ``` (show the terms of the field fld with docFreq greater or iqual to n1 and less or equal to n2)
+
 ```-indexdocstermsdfmorethan n fld indexfile ``` (build and index in the folder indexfile with the documents where the terms of the field fld appear with docFreq greater or equal to n)
+
 ```-indexdocstermsdflessthan n fld indexfile ``` (build and index in the folder indexfile with the documents where the terms of the field fld appear with docFreq less or equal to n)
+
 ```-indexdocstermsdfrango n1 n2 fld indexfile ``` (build and index in the folder indexfile with the documents where the terms of the field fld appear with docFreq greater or equal to n1 and less or equal to n2)
+
 ```- ``` ()
 ```- ``` ()
 ```- ``` ()
