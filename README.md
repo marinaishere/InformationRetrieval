@@ -20,7 +20,7 @@ In the results of the execution will always appear the document ID and the score
 ```-progquery fld1 -and term1 term2--- -or termi termj... -not termp termq...``` (show the results for the programatically built query ran over the field fld1)
 
 
-##VERSATILE LUCENE INDEX READER
+## VERSATILE LUCENE INDEX READER
 
 The first option is mandatory, only one of the others is possible:
 
