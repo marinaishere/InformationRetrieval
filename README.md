@@ -38,18 +38,15 @@ The first option is mandatory, only one of the others is possible:
 
 ```-termsdfrango n1 n2 fld ``` (show the terms of the field fld with docFreq greater or iqual to n1 and less or equal to n2)
 
-```-indexdocstermsdfmorethan n fld indexfile ``` (build and index in the folder indexfile with the documents where the terms of the field fld appear with docFreq greater or equal to n)
+```-indexdocstermsdfmorethan n fld indexfile ``` (builds and index in the folder indexfile with the documents where the terms of the field fld appear with docFreq greater or equal to n)
 
-```-indexdocstermsdflessthan n fld indexfile ``` (build and index in the folder indexfile with the documents where the terms of the field fld appear with docFreq less or equal to n)
+```-indexdocstermsdflessthan n fld indexfile ``` (builds and index in the folder indexfile with the documents where the terms of the field fld appear with docFreq less or equal to n)
 
-```-indexdocstermsdfrango n1 n2 fld indexfile ``` (build and index in the folder indexfile with the documents where the terms of the field fld appear with docFreq greater or equal to n1 and less or equal to n2)
+```-indexdocstermsdfrango n1 n2 fld indexfile ``` (builds and index in the folder indexfile with the documents where the terms of the field fld appear with docFreq greater or equal to n1 and less or equal to n2)
 
-```- ``` ()
-```- ``` ()
-```- ``` ()
-```- ``` ()
-```- ``` ()
-```- ``` ()
+```-indexdocsij i j indexfile ``` (builds and index in the folder indexfile with the documents of the range from i to j)
+
+```-mergeindexes index1 index2 ``` (merges the index in the fodler index1 with the index in the folder index2, where it is going to be located)
 
 
 ## Contact
