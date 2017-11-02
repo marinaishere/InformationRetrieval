@@ -6,7 +6,7 @@ It is composed of an index searcher and an index reader that both take as input 
 
 
 ## VERSATILE LUCENE INDEX SEARCHER
-In the results of the execution will always appear the document ID and the score of the satisfying documents. The code can be viewed in the IndexesSearcher.java file. In addition, it can be ran with the following parameters:
+In the results of the execution will always appear the document ID and the score of the satisfying documents. The code can be viewed in the IndexesSearcher.java file. In addition, it can be run with the following parameters:
 
 ```-index indexfile``` (indexfile is the folder where the index is located)
 
@@ -18,7 +18,7 @@ In the results of the execution will always appear the document ID and the score
 
 ```-multiquery fld1 "query" fld2 "query2"...``` (same as above with more than one field)  
 
-```-progquery fld1 -and term1 term2--- -or termi termj... -not termp termq...``` (show the results for the programatically built query ran over the field fld1)
+```-progquery fld1 -and term1 term2--- -or termi termj... -not termp termq...``` (show the results for the programmatically built query ran over the field fld1)
 
 
 ## VERSATILE LUCENE INDEX READER
