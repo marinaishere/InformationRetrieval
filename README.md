@@ -6,7 +6,7 @@ It is composed of an index searcher and an index reader that both take as input 
 
 
 ## VERSATILE LUCENE INDEX SEARCHER
-In the results of the execution will always appear the document ID and the score of the satisfying documents. In addition, it can be ran with the following parameters:
+In the results of the execution will always appear the document ID and the score of the satisfying documents. The code can be viewed in the IndexesSearcher.java file. In addition, it can be ran with the following parameters:
 
 ```-index indexfile``` (indexfile is the folder where the index is located)
 
@@ -23,7 +23,7 @@ In the results of the execution will always appear the document ID and the score
 
 ## VERSATILE LUCENE INDEX READER
 
-Creates an index reader with several options. The first one is mandatory and only one of the others is possible:
+Creates an index reader with several options. The code can be viewed in the IndexesReader.java file. The first one is mandatory and only one of the others is possible:
 
 ```-index indexfile``` (indexfile is the folder where the index is located)
 
@@ -57,4 +57,4 @@ Contact [Daniel Ruiz Perez](mailto:druiz072@fiu.edu) for requests, bug reports a
 
 ## License
 
-The software in this repository is available under the GNU General Public License, version 3. See the [LICENSE](https://github.com/DaniRuizPerez/PyGame/blob/master/LICENSE) file for more information.
+The software in this repository is available under the GNU General Public License, version 3. See the [LICENSE](https://github.com/DaniRuizPerez/InformationRetrieval/blob/master/LICENSE) file for more information.
