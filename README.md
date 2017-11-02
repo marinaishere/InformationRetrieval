@@ -1,7 +1,8 @@
 Information Retrieval
 ============
 
-Q-learning is a model-free reinforcement learning technique, which is used to make a two-wheeled simulated robot learn how to reach the other side of twisted hallways. This was a project for the robotics in my senior year of my undergrad in computer science at UDC (Spain) and is implemented in C.
+This was a project for the Information Retrieval course in my junior year of my undergrad in computer science at UDC (Spain) and is implemented in Java using Lucene. 
+It is composed of an index searcher and an index reader that both take as input an index file.
 
 
 ## VERSATILE LUCENE INDEX SEARCHER
@@ -22,7 +23,7 @@ In the results of the execution will always appear the document ID and the score
 
 ## VERSATILE LUCENE INDEX READER
 
-The first option is mandatory, only one of the others is possible:
+Creates an index reader with several options. The first one is mandatory and only one of the others is possible:
 
 ```-index indexfile``` (indexfile is the folder where the index is located)
 
