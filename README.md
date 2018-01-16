@@ -1,7 +1,7 @@
 Information Retrieval
 ============
 
-This was a project for the Information Retrieval course in my junior year of my undergrad in computer science at UDC (Spain) and is implemented in Java using Lucene. 
+This was a project for the Information Retrieval course in my junior year of my BS in computer science at UDC (Spain) and is implemented in Java using Lucene. 
 It is composed of an index searcher and an index reader that both take as input an index file.
 
 
