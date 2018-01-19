@@ -1,0 +1,10 @@
+los datos de conexión de la cuenta de facebook son:
+
+mail: puvi@vkcode.ru
+pass: FacebookTest
+
+mail: testtesttest@vkcode.ru
+pass: FacebookTest
+
+Las cookies están en el archivo 'cookies.txt'
+

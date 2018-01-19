@@ -1,0 +1,5 @@
+package riws.google.geolocate;
+
+public class LocateUtils {
+
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/lucene-core-4.8.1.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-queryparser-4.8.1.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-analyzers-common-4.8.1.jar"/>
+	<classpathentry kind="lib" path="lib/geocoder-java-0.16.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-simple-1.7.13.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.13.jar"/>
+	<classpathentry kind="lib" path="lib/gson-2.5.jar"/>
+	<classpathentry kind="lib" path="lib/unfolding.0.9.6.jar"/>
+	<classpathentry kind="lib" path="lib/core.jar"/>
+	<classpathentry kind="lib" path="lib/jogl-all-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="/mapejemplo/lib/core.jar"/>
+	<classpathentry kind="lib" path="/mapejemplo/lib/gluegen-rt-natives-linux-amd64.jar"/>
+	<classpathentry kind="lib" path="/mapejemplo/lib/gluegen-rt-natives-linux-armv6hf.jar"/>
+	<classpathentry kind="lib" path="/mapejemplo/lib/gluegen-rt-natives-linux-i586.jar"/>
+	<classpathentry kind="lib" path="/mapejemplo/lib/gluegen-rt-natives-macosx-universal.jar"/>
+	<classpathentry kind="lib" path="/mapejemplo/lib/gluegen-rt-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="/mapejemplo/lib/gluegen-rt-natives-windows-i586.jar"/>
+	<classpathentry kind="lib" path="/mapejemplo/lib/gluegen-rt.jar"/>
+	<classpathentry kind="lib" path="/mapejemplo/lib/jogl-all-natives-linux-amd64.jar"/>
+	<classpathentry kind="lib" path="/mapejemplo/lib/jogl-all-natives-linux-armv6hf.jar"/>
+	<classpathentry kind="lib" path="/mapejemplo/lib/jogl-all-natives-linux-i586.jar"/>
+	<classpathentry kind="lib" path="/mapejemplo/lib/jogl-all-natives-macosx-universal.jar"/>
+	<classpathentry kind="lib" path="/mapejemplo/lib/jogl-all-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="/mapejemplo/lib/jogl-all-natives-windows-i586.jar"/>
+	<classpathentry kind="lib" path="/mapejemplo/lib/jogl-all.jar"/>
+	<classpathentry kind="lib" path="/mapejemplo/lib/json4processing.jar"/>
+	<classpathentry kind="lib" path="/mapejemplo/lib/libTUIO.jar"/>
+	<classpathentry kind="lib" path="/mapejemplo/lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="/mapejemplo/lib/sqlite-jdbc-3.7.2.jar"/>
+	<classpathentry kind="lib" path="/mapejemplo/lib/unfolding.0.9.6.jar"/>
+	<classpathentry kind="src" path="data"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

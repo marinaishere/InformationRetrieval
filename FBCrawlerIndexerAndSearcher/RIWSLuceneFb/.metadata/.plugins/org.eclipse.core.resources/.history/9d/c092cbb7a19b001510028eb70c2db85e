@@ -1,0 +1,58 @@
+package riws.fb;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import riws.fb.model.UserInfo;
+
+public class DataExtractor {
+
+	public static List<UserInfo> extract(String folderPath) throws IOException {
+		List<UserInfo> listData = new ArrayList<UserInfo>();
+		File folder = new File(folderPath);
+		if (folder.isDirectory()) {
+			for (File f : folder.listFiles()) {
+				BufferedReader br = new BufferedReader(new FileReader(f));
+				String text = br.readLine();
+				while (text != null) {
+					text += br.readLine();
+				}
+				UserInfo info = parseUserData(text);
+				listData.add(info);
+				br.close();
+			}
+		}
+		return listData;
+	}
+
+	private static UserInfo parseUserData(String info) {
+		String[] lines = info.split("\n");
+		String name, studied, studiedAt, bornOn, livesIn, worksAt, from, marriedTo = null;
+		String relationWith, followedBy, wentTo, goesTo = null;
+		int friendsTotal = 0;
+		String[] friendList = null;
+		for (String line : lines) {
+			name = line.startsWith("Name:") ? line.substring(line.indexOf(':')).trim() : name;
+			studied = line.startsWith("Studied:") ? line.substring(line.indexOf(':')).trim() : studied;
+			studiedAt = line.startsWith("Studied at:") ? line.substring(line.indexOf(':')).trim() : studiedAt;
+			friendsTotal = line.startsWith("Friends:") ? Integer.parseInt(line.substring(line.indexOf(':')).trim()) : friendsTotal;
+			bornOn = line.startsWith("Born on:") ? line.substring(line.indexOf(':')).trim() : bornOn;
+			livesIn = line.startsWith("Lives in:") ? line.substring(line.indexOf(':')).trim() : livesIn;
+			worksAt = line.startsWith("Works at:") ? line.substring(line.indexOf(':')).trim() : worksAt;
+			from = line.startsWith("From:") ? line.substring(line.indexOf(':')).trim() : from;
+			marriedTo = line.startsWith("Married to:") ? line.substring(line.indexOf(':')).trim() : marriedTo;
+			relationWith = line.startsWith("In a relationship with:") ? line.substring(line.indexOf(':')).trim() : relationWith;
+			followedBy = line.startsWith("Followed By:") ? line.substring(line.indexOf(':')).trim() : followedBy;
+			wentTo = line.startsWith("Went to:") ? line.substring(line.indexOf(':')).trim() : wentTo;
+			goesTo = line.startsWith("Goes to:") ? line.substring(line.indexOf(':')).trim() : goesTo;
+			friendList = line.startsWith("Friend list:") ? line.substring(line.indexOf('['), line.length() - 1).split(",") : friendList;
+		}
+		return new UserInfo(name, studied, studiedAt, friendsTotal, bornOn, livesIn, worksAt, from, marriedTo, relationWith, followedBy, wentTo,
+				goesTo, friendList);
+	}
+
+}
