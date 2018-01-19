@@ -39,17 +39,17 @@ Execute the jar with
 Between many things, you can configure the fields to perform the search over
 
 <p align="center">
-<img src="https://github.com/DaniRuizPerez/InformationRetrieval/blob/master/config.png" width="600">
+<img src="https://github.com/DaniRuizPerez/InformationRetrieval/blob/master/config.png" width="400">
 </p>
 
 An example otput for a simple query can be seen here
 <p align="center">
-<img src="https://github.com/DaniRuizPerez/InformationRetrieval/blob/master/output.png" width="600">
+<img src="https://github.com/DaniRuizPerez/InformationRetrieval/blob/master/output.png" width="500">
 </p>
 
 And the results geolocated in the map
 <p align="center">
-<img src="https://github.com/DaniRuizPerez/InformationRetrieval/blob/master/maps.png" width="600">
+<img src="https://github.com/DaniRuizPerez/InformationRetrieval/blob/master/map.png" width="500">
 </p>
 
 
