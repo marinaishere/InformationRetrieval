@@ -25,8 +25,11 @@ All fields are of type "Stored". WIth the Class DataExtractor we obtain the fiel
 
 ## Data querying
 
+The querying process is totally configurable from the UI, using a DirectoryReader and an IndexSearcher. We can create the following types of queries:
 
-
+- BooleanQuery that if no results are found, retries with a FuzzyQuery
+- MultiFieldQuery over specified fields in the configuration.
+- PrefixQuery for autocompletion spinner
 
 
 
