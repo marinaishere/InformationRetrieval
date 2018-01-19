@@ -21,7 +21,7 @@ The crawler works by starting with a seed user, parsing with regular expressions
 
 ## Data Indexing
 
-All fields are of type "Stored". WIth the Class DataExtractor we obtain the fields from the .txt files and creates an internal representation with the objects UserInfo. Once we have a list of this objects, we create a Lucene StandarAnalyzer and create the index and the writer.
+All fields are of type "Stored". WIth the Class DataExtractor we obtain the fields from the .txt files and creates an internal representation with the objects UserInfo. Once we have a list of this objects, we create a Lucene StandarAnalyzer and create the index and the writer. This index can be updated using the UI.
 
 ## Data querying
 
@@ -31,7 +31,37 @@ The querying process is totally configurable from the UI, using a DirectoryReade
 - MultiFieldQuery over specified fields in the configuration.
 - PrefixQuery for autocompletion spinner
 
+## Execution
 
+Execute the jar with
+```java -jar fb-offline-searcher.jar ```
+
+Between many things, you can configure the fields to perform the search over
+
+<p align="center">
+<img src="https://github.com/DaniRuizPerez/InformationRetrieval/blob/master/config.png" width="600">
+</p>
+
+An example otput for a simple query can be seen here
+<p align="center">
+<img src="https://github.com/DaniRuizPerez/InformationRetrieval/blob/master/output.png" width="600">
+</p>
+
+And the results geolocated in the map
+<p align="center">
+<img src="https://github.com/DaniRuizPerez/InformationRetrieval/blob/master/maps.png" width="600">
+</p>
+
+
+
+
+
+
+
+
+
+
+Unfolding Maps
 
 ## Contact
 
