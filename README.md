@@ -6,9 +6,6 @@ It is composed of an index searcher and an index reader that both take as input 
  VERSATILE LUCENE INDEX SEARCHER
 VERSATILE LUCENE INDEX READER
 
-
-
-
 ## Crawler implementation
 
 We implemented our own Python Facebook crawler that extracts public information from users. To access the data we created fake facebook user and extracted the cookies sent when the user logs in with Firefox. We used the command wget with the cookies saved and Firefox as UserAgent, which simulates a real browser connection by the user. This allows us to access the public data from any facebook user programatically.
