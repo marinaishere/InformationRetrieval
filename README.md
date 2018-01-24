@@ -1,16 +1,10 @@
 Information Retrieval
 ============
 
-This Facebook crawler and offline profile searcher was a project for the Information Retrieval course in my MS in computer science at UDC (Spain). The deliverables of this project are a Python Facebook crawler, Java Lucene Facebook indexer and offline facebook profiles searcher and the report (Spanish). 
+This Facebook crawler and offline profile searcher was a project for the Information Retrieval course in my MS in computer science at UDC (Spain). The deliverables of this project are a Python Facebook crawler, Java Lucene Facebook indexer and offline facebook profiles searcher and the [report](https://github.com/DaniRuizPerez/InformationRetrieval/blob/master/FacebookofflinesearcherReport.pdf)(Spanish). The code can be seen at the [FBCrawlerIndexerAndSearcher](https://github.com/DaniRuizPerez/InformationRetrieval/blob/master/FBCrawlerIndexerAndSearcher) folder.
 
+Also in the folder [LuceneIndexesReaderAndSearcher](https://github.com/DaniRuizPerez/InformationRetrieval/blob/master/LuceneIndexesReaderAndSearcher) are self made implementations of a versatile lucene index reader and query searcher from the homonymous course of my BS.
 
-
-
-
-and is implemented in Java using Lucene. 
-It is composed of an index searcher and an index reader that both take as input an index file.
- VERSATILE LUCENE INDEX SEARCHER
-VERSATILE LUCENE INDEX READER
 
 ## Crawler implementation
 
